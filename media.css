@@ -1,0 +1,42 @@
+@media only screen and (max-width: 300px)
+{ #large, #medium
+{display:none}
+    body {
+        background-color: red;
+    } .smaller{ font-size:small}
+      .eerste, .tweede, .derde {
+          display: block;
+      }
+}
+@media only screen and (min-width:301px) and (max-width: 768px){
+    #large, #small { display:none}
+    body {
+        background-color: green;
+    } .eerste {
+    width: 66%;
+          }
+
+      .tweede {
+          width: 33%
+      } .derde {width: 100%;
+
+              }
+
+
+} .mediumer { font-size: medium}
+
+@media only screen and (min-width: 769px) {
+    #small, #medium {display:none}
+    body {
+        background-color: blue;
+    } .larger {font-size:large}
+} .eerste, .tweede, .derde {
+    display: inline-block; width: 30%;
+                    }
+
+
+
+
+
+
+
